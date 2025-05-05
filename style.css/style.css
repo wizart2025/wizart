@@ -1,0 +1,103 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Fond noir */
+    color: #f4e1b2; /* Texte couleur or */
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4e1b2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#accueil {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Formulaire de contact */
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #f4e1b2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #d4b17b;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #f4e1b2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
